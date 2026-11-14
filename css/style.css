@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: white;
+    --Dark: black;
+}
+
+img{
+    width: 100%;
+}
+
+.hamburger{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness */
+
+@media screen and (min-width: 280px) and (max-width: 575px) {}
