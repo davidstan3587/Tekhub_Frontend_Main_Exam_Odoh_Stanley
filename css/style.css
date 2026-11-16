@@ -28,7 +28,8 @@ img{
     justify-content: space-around;
     align-items: center;
 
-    padding-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .nav_links{
