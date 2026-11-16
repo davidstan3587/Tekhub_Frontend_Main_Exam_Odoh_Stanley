@@ -1,12 +1,12 @@
+:root {
+    --white: white;
+    --Dark: black;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --white: white;
-    --Dark: black;
 }
 
 img{
@@ -15,6 +15,31 @@ img{
 
 .hamburger{
     display: none;
+}
+
+/* Header Styling */
+
+.logo{
+    width: 15%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+.nav_links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: var(--Dark);
 }
 
 
